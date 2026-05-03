@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Portal | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-top">
+            <div class="contact-intro">
+                <h1>CONTACT US</h1>
+                <p>Send us your message or share your favorite games.</p>
+                <p>We will be happy to read your feedback, questions, or suggestions.</p>
+            </div>
+
+            <form id="contactForm" class="contact-form" novalidate>
+                <h2>Contact Form</h2>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Leave a message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <p class="form-label">Reason</p>
+                <label class="option"><input type="radio" name="reason" value="Question"> Question</label>
+                <label class="option"><input type="radio" name="reason" value="Feedback"> Feedback</label>
+
+                <label class="option checkbox"><input type="checkbox" id="terms" required> I agree to the terms</label>
+
+                <button type="submit">Submit</button>
+                <p id="formMessage" class="form-message">Your data will not be shared.</p>
+            </form>
+        </section>
+
+        <img class="wide-image" src="images/contact-hero.jpg" alt="Action game background">
+
+        <footer class="contact-footer">
+            <div>
+                <p><strong>Game Portal</strong></p>
+                <p>123 Anywhere St.</p>
+                <p>Any City, ST 12345</p>
+            </div>
+            <div>
+                <p>Tel: 123-456-789</p>
+                <p>Email: hello@gameportal.com</p>
+                <p>Social: @gameportalsite</p>
+            </div>
+            <h2>GAME PORTAL</h2>
+        </footer>
+    </main>
+
+    <script src="js/form.js"></script>
+</body>
+</html>

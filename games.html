@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Portal | Games</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a class="active" href="games.html">Games</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>TOP GAMES YOU<br>SHOULD PLAY</h1>
+        </section>
+
+        <img class="wide-image" src="images/games-hero.jpg" alt="Game street image">
+
+        <section class="game-list">
+            <article>
+                <h2>GTA V</h2>
+                <p>Open-world action game where you can explore a huge city and complete missions.</p>
+            </article>
+            <article>
+                <h2>The Witcher 3</h2>
+                <p>Story-driven RPG with a rich world, deep characters, and meaningful choices.</p>
+            </article>
+            <article>
+                <h2>Red Dead Redemption 2</h2>
+                <p>Immersive western adventure with stunning graphics and emotional story.</p>
+            </article>
+            <article>
+                <h2>Elden Ring</h2>
+                <p>Challenging RPG with an open world and epic boss fights.</p>
+            </article>
+            <article>
+                <h2>Cyberpunk 2077</h2>
+                <p>Futuristic RPG set in a detailed open world with many story paths.</p>
+            </article>
+        </section>
+
+        <section class="data-section">
+            <h2>Game Data Table</h2>
+            <p>This table is loaded from a JSON file using AJAX.</p>
+            <div id="gamesTable">Loading game data...</div>
+        </section>
+    </main>
+    <script src="js/ajax.js"></script>
+</body>
+</html>

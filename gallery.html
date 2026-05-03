@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Portal | Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a class="active" href="gallery.html">Gallery</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="blue-page gallery-page">
+        <h1>GAME GALLERY</h1>
+        <p class="subtitle">Explore screenshots and covers from popular games.</p>
+
+        <section class="gallery-grid">
+            <div class="gallery-item">
+                <h2>GTA V</h2>
+                <img src="images/gallery-gta.jpg" alt="GTA V screenshot" onclick="previewImage(this)">
+            </div>
+            <div class="gallery-item">
+                <h2>The Witcher 3</h2>
+                <img src="images/gallery-witcher.jpg" alt="The Witcher 3 screenshot" onclick="previewImage(this)">
+            </div>
+            <div class="gallery-item">
+                <h2>Cyberpunk 2077</h2>
+                <img src="images/gallery-cyberpunk.jpg" alt="Cyberpunk 2077 screenshot" onclick="previewImage(this)">
+            </div>
+            <div class="gallery-item">
+                <h2>Elden Ring</h2>
+                <img src="images/gallery-elden.jpg" alt="Elden Ring screenshot" onclick="previewImage(this)">
+            </div>
+        </section>
+    </main>
+
+    <div id="imageModal" class="modal" onclick="closePreview()">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Large preview">
+    </div>
+
+    <script src="js/gallery.js"></script>
+</body>
+</html>

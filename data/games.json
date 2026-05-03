@@ -1,0 +1,77 @@
+{
+  "portal": {
+    "category": "Recommended games",
+    "games": [
+      {
+        "title": "GTA V",
+        "details": {
+          "genre": "Action / Open World",
+          "platform": {
+            "main": "PC",
+            "other": "PlayStation, Xbox"
+          },
+          "rating": {
+            "score": 9,
+            "label": "Excellent"
+          }
+        }
+      },
+      {
+        "title": "The Witcher 3",
+        "details": {
+          "genre": "RPG",
+          "platform": {
+            "main": "PC",
+            "other": "PlayStation, Xbox, Switch"
+          },
+          "rating": {
+            "score": 10,
+            "label": "Masterpiece"
+          }
+        }
+      },
+      {
+        "title": "Red Dead Redemption 2",
+        "details": {
+          "genre": "Adventure / Open World",
+          "platform": {
+            "main": "PC",
+            "other": "PlayStation, Xbox"
+          },
+          "rating": {
+            "score": 10,
+            "label": "Masterpiece"
+          }
+        }
+      },
+      {
+        "title": "Elden Ring",
+        "details": {
+          "genre": "Action RPG",
+          "platform": {
+            "main": "PC",
+            "other": "PlayStation, Xbox"
+          },
+          "rating": {
+            "score": 9,
+            "label": "Excellent"
+          }
+        }
+      },
+      {
+        "title": "Cyberpunk 2077",
+        "details": {
+          "genre": "Futuristic RPG",
+          "platform": {
+            "main": "PC",
+            "other": "PlayStation, Xbox"
+          },
+          "rating": {
+            "score": 8,
+            "label": "Very Good"
+          }
+        }
+      }
+    ]
+  }
+}
